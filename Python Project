@@ -1,0 +1,9 @@
+Python Script
+Built for Windows 10 and Windows 11
+Capabilities/Run:
+Scans all open ports on system it is ran on.
+Will check packages that are installed.
+Will check for available updates.
+Will check security configurations.
+Will show problems at the end in red. (Problems will be compared to CVE's list.)
+Will make a text (.txt) file that will be saved to user's desktop.
